@@ -1,5 +1,5 @@
 Codes are in 
-	\grpc-data-transfer\src\main\java\com\example\grpc
+	\src\main\java\com\example\grpc
 		DataServer.java
 		DataClient.java
 		DataTransferServiceImpl.java
