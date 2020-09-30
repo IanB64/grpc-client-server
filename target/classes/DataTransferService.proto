@@ -1,0 +1,15 @@
+syntax = "proto3";
+package com.example.grpc.dataTransfer;
+option java_multiple_files = true;
+
+message DataChunk {
+  bytes data = 1;
+}
+
+message Reply {
+  string reply = 1;
+}
+
+service DataTransferService {
+  rpc send(DataChunk) returns(Reply);
+}

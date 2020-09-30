@@ -1,0 +1,6 @@
+com\example\grpc\dataTransfer\DataTransferServiceGrpc$1.class
+com\example\grpc\dataTransfer\DataTransferServiceGrpc$DataTransferServiceBlockingStub.class
+com\example\grpc\dataTransfer\DataTransferServiceGrpc$DataTransferServiceImplBase.class
+com\example\grpc\dataTransfer\DataTransferServiceGrpc$DataTransferServiceFileDescriptorSupplier.class
+com\example\grpc\dataTransfer\DataTransferServiceGrpc$DataTransferServiceMethodDescriptorSupplier.class
+DataTransferService.proto

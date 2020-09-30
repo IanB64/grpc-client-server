@@ -1,0 +1,11 @@
+Codes are in 
+	\grpc-data-transfer\src\main\java\com\example\grpc
+		DataServer.java
+		DataClient.java
+		DataTransferServiceImpl.java
+		
+To run the DataServer:
+	mvn exec:java -Dexec.mainClass=com.example.grpc.DataServer
+	
+To run the DataClient:
+	mvn exec:java -Dexec.mainClass=com.example.grpc.DataClient -Dexec.args="<hostaddr> <port> <packetsize> <datasize>"
